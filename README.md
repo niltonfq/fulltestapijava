@@ -1,4 +1,6 @@
-# fulltestapijava
+[![Build Status](https://travis-ci.org/niltonfq/fulltestapijava.svg?branch=master)](https://travis-ci.org/niltonfq/fulltestapijava)
+
+# Full Test Api Java
 Teste completo de uma api java
 
 
