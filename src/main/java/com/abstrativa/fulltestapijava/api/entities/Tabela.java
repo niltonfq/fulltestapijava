@@ -35,7 +35,7 @@ public class Tabela implements Serializable {
 	private Date criacao;
 	private Integer pagina;
 	private BigDecimal valor;
-	private String content;
+	private String carta;
     private byte[] foto;
 	private StatusEnum status;
 	
@@ -114,14 +114,14 @@ public class Tabela implements Serializable {
 	@Lob 
 	@Column(length=512)
 	public String getContent() {
-		return content;
+		return carta;
 	}
 
 	/**
 	 * @param content the content to set
 	 */
 	public void setContent(String content) {
-		this.content = content;
+		this.carta = content;
 	}
 
 	/**
@@ -210,8 +210,8 @@ public class Tabela implements Serializable {
 		builder.append(pagina);
 		builder.append(", valor=");
 		builder.append(valor);
-		builder.append(", content=");
-		builder.append(content);
+		builder.append(", carta=");
+		builder.append(carta);
 		builder.append(", foto=");
 		builder.append(Arrays.toString(foto));
 		builder.append(", status=");
